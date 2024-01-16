@@ -1,0 +1,33 @@
+*{
+    background-color: #292827;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 4px red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    font-family: cursive;
+}
+h4{
+    color: aquamarine;
+    text-shadow: 2px 2px 20px red;
+    margin-left: 100px;
+}
+img{
+    margin-left: 50px;
+    border: 2px solid white;
+}
+img:hover{
+    box-shadow: 1px 1px 1px 2px white;
+}
+img:active{
+    box-shadow: 1px 1px 1px 2px yellow;
+}
+h3{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}

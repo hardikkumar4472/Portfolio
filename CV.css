@@ -1,0 +1,25 @@
+*{
+    background-color: #292827 ;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 2px 2px 4px red;
+}
+img{
+    margin-left: 500px;
+    height: 700px;
+    box-shadow: 2px 2px 2px 2px black;
+    animation-name: cv;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes cv{
+    from{
+    box-shadow: 2px 2px 2px 6px black;       
+    }
+    to{
+    box-shadow: 2px 2px 2px 6px white;
+    }
+    
+}

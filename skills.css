@@ -1,0 +1,143 @@
+#trio{
+    display: flex;
+    margin-top: 100px;
+    gap: 300px;
+    align-items: center;
+    margin-left: 300px;
+}
+#trio1{
+    display: flex;
+    margin-top: 100px;
+    gap: 300px;
+    align-items: center;
+    margin-left: 470px;
+}
+*{
+    background-color: #292827;
+}
+h1{
+    color: yellow;
+    text-shadow: 20px 20px 80px red;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+#h41{
+    margin-left: 200px;
+}
+#text{
+    display: flex;
+    gap: 350px;
+    margin-left: 330px;
+    color: white;
+    font-family: cursive;
+}
+#text1{
+    display: flex;
+    gap: 350px;
+    margin-left: 500px;
+    color: white;
+    font-family: cursive;
+}
+h4{
+    text-shadow: 2px 2px 16px black;
+}
+#a{
+    box-shadow: 2px 2px 40px orange;
+    animation-name: a;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes a {
+    from{
+        box-shadow: 2px 2px 40px orange;
+    }
+    to{
+        box-shadow: 2px 2px 40px white;
+    }
+
+    
+}
+#b{
+    box-shadow: 2px 2px 40px skyblue;
+    animation-name: b;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes b {
+    from{
+        box-shadow: 2px 2px 40px blue;
+    }
+    to{
+        box-shadow: 2px 2px 40px white;
+    }
+}
+#c{
+    box-shadow: 2px 2px 40px yellow;
+    animation-name: c;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes c{
+    from{
+        box-shadow: 2px 2px 40px yellow;
+    }
+    to{
+        box-shadow: 2px 2px 40px white;
+    }
+}
+#d{
+    box-shadow: 2px 2px 40px white;
+    animation-name: d;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes d{
+    from{
+        box-shadow: 2px 2px 40px yellow;
+    }
+    to{
+        box-shadow: 2px 2px 40px blue;
+    }
+}
+#e{
+    box-shadow: 2px 2px 40px blue;
+    animation-name: e;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes e{
+    from{
+        box-shadow: 2px 2px 40px white;
+    }
+    to{
+        box-shadow: 2px 2px 40px blue;
+    }
+}
+#a,#b,#c,#d,#e{
+    background-color: white;
+    color: white;
+    border: 2px solid white;
+}
+#a:active{
+    box-shadow: 2px 2px 40px red;
+
+}
+#b:active{
+    box-shadow: 2px 2px 40px red;
+
+}
+#c:active{
+    box-shadow: 2px 2px 40px red;
+}
+#d:active{
+    box-shadow: 2px 2px 40px red;
+
+}
+#e:active{
+    box-shadow: 2px 2px 40px red;
+
+}

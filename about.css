@@ -1,0 +1,32 @@
+*{
+    background-color: #292827 ;
+}
+h1{
+    color: orange;
+    text-align: center;
+    text-decoration:double;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 5px 5px green;
+}
+h4{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+img{
+    margin-left: 530px;
+    box-shadow: 2px 1px 2px 6px white;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes img {
+    from{
+    box-shadow: 2px 1px 2px 6px white;
+    }
+    to{
+        box-shadow: 2px 1px 2px 10px yellow; 
+    }
+}
